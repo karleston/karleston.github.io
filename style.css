@@ -1,7 +1,20 @@
 body{
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/41854/screenshots/1877596/test-pattern.gif)
 	}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+	height: auto; 
+    width: auto; 
+    max-width: 150px; 
+
+}
 .tit{
+	float:left;
 	font-family: "Impact",charcoal, sans-serif;
 	color:#FD46CB;
 	background-color:#76FFDE ;
@@ -9,7 +22,7 @@ body{
 	padding-top: .1em;
 	padding-bottom: .1em;
 	padding-right: .3em;
-	margin-right: 36.3em;
+	margin-right: 31.5em;
 	allign: left;
 	text-shadow:
     -2px -2px 0 #000,
@@ -62,11 +75,11 @@ body{
 
 }
 .imageFormat{
-	padding-right: 7em;
+	padding-right: 3em;
 	float: right;
 }
 .imageFormatTwo{
-	width: 10px;
+	img-width: 10px;
 	height: auto;
 }
 .step{
