@@ -1,0 +1,95 @@
+body{
+	background-image: url(https://d13yacurqjgara.cloudfront.net/users/41854/screenshots/1877596/test-pattern.gif)
+	}
+.tit{
+	font-family: "Impact",charcoal, sans-serif;
+	color:#FD46CB;
+	background-color:#76FFDE ;
+	padding-left: .31em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	padding-right: .3em;
+	margin-right: 36.3em;
+	allign: left;
+	text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+	
+}
+.crazyText{
+	font-family: "Comic Sans MS",cursive, sans-serif;
+	color:red;
+	outline-style: ridge;
+	font-weight: bold;
+	margin-right: 15em;
+	margin-left: 15em;
+	outline-color: black;
+	background-color: #76FFDE;
+}
+.crazyText2{
+	padding-top: 20em;
+}
+.flash{
+	animation-name: flash;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: running;
+}
+.bodyText{
+	float: left;
+	width: 20em;
+	margin-top:2em;
+	margin-left:4em;
+	padding-left: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	color: #560051;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-style: bold;
+	background-color:lightyellow;
+	outline-style: ridge;
+}
+.bodyTextTwo{
+	padding-top: 35em;
+	font-style: italic;
+}	
+.audioFormat{
+
+}
+.imageFormat{
+	padding-right: 7em;
+	float: right;
+}
+.imageFormatTwo{
+	width: 10px;
+	height: auto;
+}
+.step{
+	position: relative;
+	animation-name: step;
+	animation-duration: 5s;
+	-webkit-animation-name: step;
+    -webkit-animation-duration: 5s;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-out;
+	animation-timing-function: ease-out;
+}
+@keyframes step{
+    0%   {right:0px;}
+    50%  {right:500px;}
+	100% {right:0px;}
+}
+@keyframes step{
+    0%   {right:0px;}
+    50%  {right:500px;}
+	100% {right:0px;}
+}
+@-webkit-keyframes flash {
+	from {color: red;}
+	to {color: blue;}
+}
