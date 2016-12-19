@@ -1,5 +1,7 @@
 body{
-	background-image: url(https://d13yacurqjgara.cloudfront.net/users/41854/screenshots/1877596/test-pattern.gif)
+	background-image: url(bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
 	}
 #content {
     position: relative;
@@ -16,7 +18,7 @@ body{
 .tit{
 	float:left;
 	font-family: "Impact",charcoal, sans-serif;
-	color:#FD46CB;
+	color:#A20045;
 	background-color:#76FFDE ;
 	padding-left: .31em;
 	padding-top: .1em;
@@ -38,7 +40,7 @@ body{
 	font-weight: bold;
 	margin-right: 15em;
 	margin-left: 15em;
-	outline-color: black;
+	outline-color: #A20045;
 	background-color: #76FFDE;
 }
 .crazyText2{
@@ -61,15 +63,16 @@ body{
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 1em;
-	color: #560051;
+	color: #A20045;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-style: bold;
-	background-color:lightyellow;
+	background-color:#76FFDE;
 	outline-style: ridge;
 }
 .bodyTextTwo{
 	padding-top: 35em;
 	font-style: italic;
+	color: #76FFDE;
 }	
 .audioFormat{
 
