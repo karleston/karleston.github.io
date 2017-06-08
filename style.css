@@ -1,111 +1,52 @@
 body{
-	background-image: url(bg.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	}
-#content {
-    position: relative;
+	background-color: #232323
 }
-#content img {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-	height: auto; 
-    width: auto; 
-    max-width: 150px; 
 
+.title{
+	padding-left: 40px;
+	padding-right: 30px;
 }
-.tit{
-	float:left;
-	font-family: "Impact",charcoal, sans-serif;
-	color:#A20045;
-	background-color:#76FFDE ;
-	padding-left: .31em;
-	padding-top: .1em;
-	padding-bottom: .1em;
-	padding-right: .3em;
-	margin-right: 31.5em;
-	allign: left;
-	text-shadow:
-    -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;  
+.body{
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	background-color: #232323;
+	padding: 2em;
+}
+
+.left{
+	float: left;
+}
+.button{
+	background-color: #f93c39;
+	border; none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+    cursor: pointer;
 	
 }
-.crazyText{
-	font-family: "Comic Sans MS",cursive, sans-serif;
-	color:red;
-	outline-style: ridge;
-	font-weight: bold;
-	margin-right: 15em;
-	margin-left: 15em;
-	outline-color: #A20045;
-	background-color: #76FFDE;
+
+#main{
+	margin: 40px;
+	padding-bottom: 600px;
+	background-color: #fa625f;
 }
-.crazyText2{
-	padding-top: 20em;
+
+#header{
+	font-family: 'Bungee Shade', cursive;
+	font-size: 25px;
+	text-align: left;
+	color: #232323;
 }
-.flash{
-	animation-name: flash;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-play-state: running;
-}
-.bodyText{
-	float: left;
-	width: 20em;
-	margin-top:2em;
-	margin-left:4em;
-	padding-left: 1em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	padding-right: 1em;
-	color: #A20045;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-style: bold;
-	background-color:#76FFDE;
-	outline-style: ridge;
-}
-.bodyTextTwo{
-	padding-top: 35em;
-	font-style: italic;
-	color: #76FFDE;
-}	
-.audioFormat{
+
+#bod{
+	margin-left: 400px;
+	margin-right: 40px;
+	padding: 0px 40px 20px 40px;
 
 }
-.imageFormat{
-	padding-right: 3em;
-	float: right;
-}
-.imageFormatTwo{
-	img-width: 10px;
-	height: auto;
-}
-.step{
-	position: relative;
-	animation-name: step;
-	animation-duration: 5s;
-	-webkit-animation-name: step;
-    -webkit-animation-duration: 5s;
-	animation-iteration-count: infinite;
-	-webkit-animation-timing-function: ease-out;
-	animation-timing-function: ease-out;
-}
-@keyframes step{
-    0%   {right:0px;}
-    50%  {right:500px;}
-	100% {right:0px;}
-}
-@keyframes step{
-    0%   {right:0px;}
-    50%  {right:500px;}
-	100% {right:0px;}
-}
-@-webkit-keyframes flash {
-	from {color: red;}
-	to {color: blue;}
-}
+#
+
